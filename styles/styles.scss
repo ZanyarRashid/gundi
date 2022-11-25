@@ -1,0 +1,43 @@
+$primaryColor: #9c27b0;
+$secondaryColor: #999;
+
+
+.btn {
+    border: 1px solid $primaryColor;
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: $primaryColor;
+    color: white;
+
+    &.rounded {
+        border-radius: 20px;
+    }
+
+    &.outline {
+        background-color: transparent;
+        color: $primaryColor;
+
+        &:hover {
+            background-color: $primaryColor;
+            color: white;
+            transition: 200ms linear;
+        }
+    }
+
+    &.small {
+        padding: 0.40625rem 1.25rem;
+    }
+
+    &.regular {
+        padding: 12px 30px;
+    }
+
+    &.large {
+        padding: 1.125rem 2.25rem;
+    }
+
+    &.secondary {
+        background-color: $secondaryColor;
+        border: 1px solid $secondaryColor;
+    }
+  }

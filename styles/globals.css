@@ -35,9 +35,3 @@ a {
 .row .btn {
   margin-right: 20px;
 }
-
-.btn {
-  border: 1px solid black;
-  padding: 10px 15px;
-  display: inline-block;
-}
