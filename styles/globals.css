@@ -20,7 +20,24 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
   }
+}
+.ui {
+  padding: 20px;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.row .btn {
+  margin-right: 20px;
+}
+
+.btn {
+  border: 1px solid black;
+  padding: 10px 15px;
+  display: inline-block;
 }
