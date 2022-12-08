@@ -10,6 +10,6 @@ export default function Megatemplate(props) {
             <TitleTextButton title="Main title 2" text="This is the second paragraph" link="/about" btnText="button 2"/>
             <TitleTextButton title="Main title 3" text="This is the third paragraph" link="https://www.google.nl" btnText="button 3"/>
         </div>
-        <Footer />
+        <Footer copyright="ⓒ Goherzi Digital Media" author="Zanyar Rashid"/>
     </div>
   }

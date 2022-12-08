@@ -1,6 +1,47 @@
 $primaryColor: #9c27b0;
 $secondaryColor: #999;
+$primaryFont: 'Roboto', sans-serif;
 
+html, body {
+  padding: 0;
+  margin: 0;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: $primaryFont;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1400px;
+    align-self: center;
+}
+
+.column {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
 
 .btn {
     border: 1px solid $primaryColor;
@@ -40,4 +81,50 @@ $secondaryColor: #999;
         background-color: $secondaryColor;
         border: 1px solid $secondaryColor;
     }
-  }
+}
+
+input {
+    border: #9c27b0 0.3px solid;
+    padding: 6px 0 7px 10px;
+    outline: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header {
+    background-color: black;
+
+    &-title {
+        color: white;
+    }
+
+    &-login {
+        color: white;
+        text-align: right;
+    }
+}
+
+.footer {
+    background-color: black;
+
+    &-copyight {
+        text-align: left;
+        color: white;
+    }
+
+    &-author {
+        text-align: right;
+        color: white;
+    }
+}
+
+.section {
+    &-1 {
+        .row {
+            flex-direction: column;
+        }
+    }
+}
